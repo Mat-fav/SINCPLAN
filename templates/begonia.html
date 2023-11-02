@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasmin</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <meta name="keywords" content="Rega, plantas, cuidar de plantas, gerenciamento, cuidado">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/84d31f13e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+          <a href="{{ url_for('index') }}">SINCPLAN</a>
+        </div>
+        <div class="nav-links">
+          <a id="recursos" href="{{ url_for('catalogo_plantas') }}">Catalogo de Plantas</a>
+        </div>
+      </nav>
+      
+      <main>
+        <section id="features" class="features">
+          <h2><u>Sobre o Jasmin</u></h2>
+          </div>
+          <div class="card">
+            <i class="fas fa-tint"></i>
+            <h3>Informações sobre irrigação</h3>
+            <ul class="plantas_lista_catalogo">
+                <li>Durante a fase de crescimento o jasmin precisa de água.</li>
+                <li>Durante a fase adulto é necessário regar todas as vezes que sentir o solo seco.</li>
+                <li>Molhe, contudo não em excesso, se o fizer pode fazer a planta apodrecer.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <i class="fas fa-sun"></i>
+            <h3>Informações sobre iluminação</h3>
+            <ul class="plantas_lista_catalogo">
+                <li>O jasmim gosta de sol pleno, contudo não direto em seu corpo</li>
+                <li>Se o jasmin ficar nas sombras isto o fará florecer menos</li>
+                <li>Deixe o vaso próximo à janela para pegar o máximo de sol possível durante o dia</li>
+            </ul>
+          </div>
+        </section>
+        <section id="about" class="about">
+            <h2>Sobre a Jasmin</h2>
+            <ul class="plantas_lista_catalogo">
+                <li>Pode atingir 6 metros de altura, mas normalmente em vaso não cresce tanto</li>
+                <li>Ela cresce bastante durante os meses mais quentes do ano</li>
+                <li>Ela não gosta do inverno nem do ar frio, portanto não deixe em local com muito vento. Suas folhas podem apodrecer com o frio</li>
+            </ul>
+        </section>
+            <footer>
+                <p>&copy; 2023 SINCPLAN - Todos os direitos reservados.</p>
+              </footer>
+</body>
+</html>

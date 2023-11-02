@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SINCPLAN - Sistema de informações para cuidados com plantas</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <meta name="keywords" content="Rega, plantas, cuidar de plantas, gerenciamento, cuidado">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/84d31f13e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">
+      <a href="#">SINCPLAN</a>
+    </div>
+    <div class="nav-links">
+      <a href="{{ url_for('catalogo_plantas') }}">Catálogo de Plantas</a>
+    </div>
+  </nav>
+  
+  <main>
+    <section id="features" class="features">
+      <h2>Sobre o sistema</h2>
+      </div>
+      <div class="card">
+        <i class="fas fa-tint"></i>
+        <h3>Informações sobre irrigação</h3>
+        <p>Informações sobre a quantia de água para suas plantas</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-sun"></i>
+        <h3>Informações sobre iluminação</h3>
+        <p>Informações sobre a quantidade de exposição a luz</p>
+      </div>
+    </section>
+    
+    
+    <section id="about" class="about">
+      <h2>Sobre o SINCPLAN</h2>
+      <p>É um sistema de gerenciamento de plantas projetado para ajudar os amantes da jardinagem a cuidar de suas plantas de forma fácil e eficiente. Com o SINCPLAN, você pode obter informações sobre plantas.
+       <br>
+       <br>
+        O sistema SINCPLAN também pode ajudá-lo a economizar tempo e dinheiro, evitando a rega excessiva ou insuficiente, reduzindo a necessidade de substituir plantas mortas ou doentes.
+        <br>
+        <br>
+        Com uma interface intuitiva e fácil de usar, o SINCPLAN é uma solução prática para todos os tipos de jardineiros, desde aqueles que estão apenas começando até os mais experientes. Experimente o Rega hoje e descubra como esse sistema pode tornar a sua jardinagem mais fácil, eficiente.</p>
+    
+  </main>
+  <footer>
+    <p>&copy; 2023 SINCPLAN - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
