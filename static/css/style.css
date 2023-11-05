@@ -284,5 +284,6 @@
       margin: 10px; /* Adiciona margem externa */
       padding: 0; /* Define o preenchimento interno para remover o recuo padrão */
       color: #00b894; /* Define a cor do texto da lista */
+      text-align: justify;
   }
   
